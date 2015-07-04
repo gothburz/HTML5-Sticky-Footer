@@ -1,0 +1,17 @@
+body, html{
+	margin: 0;
+	height: 100%; 
+}
+
+body{
+	padding-bottom: -100px; /*change me: always negative value of footer height*/
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px; /*change me: always positive value of body's padding-bottom*/
+	background-color: #000;
+}
